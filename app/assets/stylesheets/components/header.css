@@ -1,0 +1,21 @@
+header{
+  top: 20px;
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background: linear-gradient(rgba(36, 11, 54, 0.5), rgba(36, 11, 54, 0.2))
+}
+
+header .hdr-bttns{
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+header .avatar{
+  padding: 10px;
+}

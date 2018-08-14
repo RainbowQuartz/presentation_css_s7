@@ -1,0 +1,51 @@
+.card{
+  background-image: linear-gradient(rgba(36, 11, 54, 0.4) 30%, rgba(36, 11, 54, 0.3) 80%), url("https://i.pinimg.com/564x/dc/68/0e/dc680e1e58fcc2b41084add58670b064.jpg");
+  background-size: contain;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  height: auto;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .card-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-user{
+  width: 125px;
+  height: 125px;
+  border-radius: 50% !important;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 185px;
+}
+
+.card-user img{
+  width: 125px;
+  height: 125px;
+  border-radius: 40% !important;
+}
+
+.card .card-tag{
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 2em;
+}
+
+.card .card-description h1{
+  text-align: left;
+  margin-left: 10px;
+  font-size: 2em;
+}
+
+.card .card-description p{
+  text-align: justify;
+  margin-left: 10px;
+  font-size: 1em;
+}

@@ -1,0 +1,16 @@
+.page-body{
+  top: 130px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.container{
+  margin: auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
