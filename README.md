@@ -1,24 +1,3 @@
-# README
+Cette page statique à été réalisée par Léona Chevrel, moussaillonne à la session 5 de THP à Rennes.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Voici le lien pour voir le site en production <a href='https://page-presentation.herokuapp.com'>ici</a>
