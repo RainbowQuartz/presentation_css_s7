@@ -6,13 +6,16 @@ header{
   display: flex;
   justify-content: space-between;
   align-content: center;
-  background: linear-gradient(rgba(36, 11, 54, 0.5), rgba(36, 11, 54, 0.2))
+  background-color: rgba(220, 255, 64, 1);
+  background: linear-gradient(rgba(220, 255, 64, 0.4) 30%, rgba(220, 255, 64, 0.3) 80%);
+  border-radius: 5px;
 }
 
 header .hdr-bttns{
   margin: auto;
+  width: 200px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-content: center;
 }
 

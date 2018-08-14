@@ -1,5 +1,6 @@
 .card{
-  background-image: linear-gradient(rgba(36, 11, 54, 0.4) 30%, rgba(36, 11, 54, 0.3) 80%), url("https://i.pinimg.com/564x/dc/68/0e/dc680e1e58fcc2b41084add58670b064.jpg");
+  background-color: rgba(153, 61, 77, 1);
+  background: linear-gradient(rgba(153, 61, 77, 0.4) 30%, rgba(153, 61, 77, 0.3) 80%);
   background-size: contain;
   margin: 10px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -21,9 +22,8 @@
   width: 125px;
   height: 125px;
   border-radius: 50% !important;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-bottom: 185px;
+  margin-top: 15px;
+  margin-left: 15px;
 }
 
 .card-user img{
@@ -41,6 +41,7 @@
 .card .card-description h1{
   text-align: left;
   margin-left: 10px;
+  padding-top: 30px;
   font-size: 2em;
 }
 

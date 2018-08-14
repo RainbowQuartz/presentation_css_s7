@@ -2,7 +2,10 @@ nav{
   position: relative;
   margin-left: 0;
   margin-top: 10px;
-  background: linear-gradient(rgba(36, 11, 54, 0.5), rgba(36, 11, 54, 0.2))
+  height: 235px;
+  background-color: rgba(220, 255, 64, 1);
+  background: linear-gradient(rgba(220, 255, 64, 0.4) 30%, rgba(220, 255, 64, 0.3) 80%);
+  border-radius: 5px;
 }
 
 nav ul{
@@ -16,4 +19,26 @@ nav ul{
 
 nav ul li{
   margin: 10px;
+  padding-top: 1em;
+  padding-left: 2px;
+  padding-right: 2px;
+  height: 2em;
+  background-color: rgba(220, 255, 64, 1);
+  background: linear-gradient(rgba(220, 255, 64, 0.2) 30%, rgba(220, 255, 64, 0.1) 80%);
+  text-align: center;
+  border-radius: 5px;
+}
+
+nav ul li:hover{
+  background-color: rgba(220, 255, 64, 1);
+  background: linear-gradient(rgba(220, 255, 64, 0.4) 30%, rgba(220, 255, 64, 0.1) 80%);
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: inherit;
+}
+
+nav ul li a:focus{
+  color: #C31432;
 }

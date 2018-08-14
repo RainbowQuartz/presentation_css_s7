@@ -1,11 +1,28 @@
-bttn-prmry{
-
+.bttn-prmry{
+  -moz-box-shadow:inset 0px 19px 18px 0px rgba(204, 195, 20, 0.5);
+	-webkit-box-shadow:inset 0px 19px 18px 0px rgba(204, 195, 20, 0.5);
+	box-shadow:inset 0px 19px 18px 0px rgba(204, 195, 20, 0.5);
+	background-color:transparent;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:2px solid rgba(204, 195, 20, 0.5);
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:9px 23px;
+	text-decoration:none;
+  margin-left: 25px;
 }
 
-bttn-prmry:hover{
-
+.bttn-prmry:hover{
+  background-color: rgba(220, 255, 64, 0.2);
 }
 
-bttn-prmry:active{
-  
+.bttn-prmry:active{
+  position:relative;
+	top:1px;
 }
